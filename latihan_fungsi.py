@@ -61,3 +61,39 @@ def RtoC(reamur):
 #Contoh pemanggilan fungsi
 suhu_reamur = 24
 suhu_celsius = RtoC(suhu_reamur)
+print(f"Suhu dalam Celsius: {suhu_celsius}")
+
+
+#Menghitung luas lingkaran
+def luas_lingkaran(jari_jari):
+    luas = 3.14 * jari_jari ** 2
+    return luas
+
+#Contoh pemanggilan fungsi
+jari_jari = 5
+luas = luas_lingkaran(jari_jari)
+print(f"Luas lingkaran: {luas}")
+
+
+#Menghitung luas permukaan tabung
+def luas_permukaan_tabung(jari_jari, tinggi):
+    luas = 2 * 3.14 * jari_jari * (jari_jari + tinggi)
+    return luas
+
+#Contoh pemanggilan fungsi
+jari_jari = 5
+tinggi = 10
+luas = luas_permukaan_tabung(jari_jari, tinggi)
+print(f"Luas permukaan tabung: {luas}")
+
+
+#Menghitung volume tabung
+def volume_tabung(jari_jari, tinggi):
+    volume = 3.14 * jari_jari ** 2 * tinggi
+    return volume
+
+#Contoh pemanggilan fungsi
+jari_jari = 5
+tinggi = 10
+volume = volume_tabung(jari_jari, tinggi)
+print(f"Volume tabung: {volume}")
