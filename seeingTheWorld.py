@@ -1,0 +1,15 @@
+places = ['Tokyo', 'Paris', 'Edinburgh', 'Swiss', 'New York']
+
+print("Urutan asli:", places)
+print("\nUrutan alfabet (sorted):", sorted(places))
+print("List asli tetap:", places)
+print("\nUrutan reverse-alphabet (sorted):", sorted(places, reverse=True))
+print("List asli tetap:", places)
+places.reverse()
+print("\nSetelah reverse():", places)
+places.reverse()
+print("Kembali ke urutan asli:", places)
+places.sort()
+print("\nSetelah sort() (alfabet):", places)
+places.sort(reverse=True)
+print("Setelah sort(reverse=True):", places)
